@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SolidusImportProducts
   module Generators
     class InstallGenerator < Rails::Generators::Base
@@ -10,7 +12,7 @@ module SolidusImportProducts
       end
 
       def add_migrations
-        run 'bundle exec rake railties:install:migrations FROM=solidus_import_products'
+        run 'bundle exec rake railties:install:migrations FROM=import_products'
       end
 
       def add_files

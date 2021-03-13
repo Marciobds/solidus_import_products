@@ -1,0 +1,48 @@
+en:
+  show_product_import: Mostrar informações do produto
+  product_import_processing: "Obrigado, sua importação foi adicionada à fila para processamento. Você receberá um e-mail confirmando a importação assim que ela for concluída."
+  product_import_imported: "Produtos importados com sucesso"
+  product_imports: "Importação de Produtos"
+  delete_product_import: "Deletar"
+  back_to_product_imports: "Voltar para Importação de Produtos"
+  delete_product_import_successful: "Importação e produtos associados excluídos com sucesso"
+  confirm_delete_product_import: "Excluir esta importação excluirá todos os produtos associados, tem certeza?"
+  product_import_http_error: "Erro ao fazer upload do arquivo. Certifique-se de que o arquivo seja salvo como texto."
+  product_import_error: "Erro ao criar a importação. Certifique-se de que os arquivos estejam no formato correto."
+  spree:
+    admin:
+      tab:
+        product_imports: "Importação de Produtos"
+    actions:
+      import: "Importar"
+    messages:
+      hello: 'Olá,'
+      error: "Ocorreu um erro durante a importação.<br />Causas comuns para isso incluem:<br />- CSV mau formatado<br />- Caracteres especisais presentes no arquivo<br />- Dados incorretos<br />- Erro na aplicação ou banco de dados<br /><br />Por favor verifique o seu arquivo e tente novamente.<br />Para ajudar no diagnóstico do problema, nós anexamos neste e-mail o arquivo de registros da importação.<br /><br />--<br /><br />"
+      success: "Este é um e-mail rápido para informar que a importação do produto que você enviou foi concluída.<br />Agora você pode ver os produtos que adicionou visíveis em sua loja."
+  product_import:
+    table:
+      date_creation: Data de Criação
+      csv_name: Nome do CSV
+      zip_name: Nome do ZIP
+      status: Status
+      date_status: Status de dados
+      imported: Importado
+      error_message: Mensagem de Erro
+      sku: SKU
+      name: Nome
+      master_price: Preço Mestre
+      actions: Ações
+      sample: Baixar Arquivo Planilha de Exemplo
+    state:
+      created: "Criado"
+      started: "Em Progresso"
+      completed: "Completado"
+      failed: "Falhou"
+  form:
+    product_import:
+      separator_char: "Caracter separado"
+      heading: "Importar produtos de CSV"
+      encoding: "Codificação"
+      new:
+        data_file: "Arquivo de dados do produto"
+        compress_image_file: "Arquivo de dados compactados de imagens (zip)"
