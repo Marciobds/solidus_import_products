@@ -1,4 +1,5 @@
-en:
+---
+pt-BR:
   show_product_import: Mostrar informações do produto
   product_import_processing: "Obrigado, sua importação foi adicionada à fila para processamento. Você receberá um e-mail confirmando a importação assim que ela for concluída."
   product_import_imported: "Produtos importados com sucesso"
