@@ -9,16 +9,17 @@ en:
   confirm_delete_product_import: "Deleting this import will delete all the product associated, are you sure ?"
   product_import_http_error: "Error uploading file. Make sure the file is saved as text."
   product_import_error: "Error creating the import. Make sure the files are in the right format."
+  import_products:
+    mailer:
+      hello: 'Hello,'
+      error: "Something went wrong during the product import.<br />Common causes for this include:<br />- Badly formatted CSV<br />- Special characters within the file<br />- Incorrect data<br />- Application or database error<br /><br />Please check your file and try again.<br />To help diagnose the problem, we have attached the log file for the imports.<br /><br />--<br /><br />"
+      success: "This is a quick email to let you know that the product import you submitted has been completed.<br />You can now see the products you added visible in your store."
   spree:
     admin:
       tab:
         product_imports: "Import Products"
     actions:
       import: "Import"
-    messages:
-      hello: 'Hello,'
-      error: "Something went wrong during the product import.<br />Common causes for this include:<br />- Badly formatted CSV<br />- Special characters within the file<br />- Incorrect data<br />- Application or database error<br /><br />Please check your file and try again.<br />To help diagnose the problem, we have attached the log file for the imports.<br /><br />--<br /><br />"
-      success: "This is a quick email to let you know that the product import you submitted has been completed.<br />You can now see the products you added visible in your store."
   product_import:
     table:
       date_creation: Date Creation

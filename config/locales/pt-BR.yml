@@ -10,16 +10,17 @@ pt-BR:
   confirm_delete_product_import: "Excluir esta importação excluirá todos os produtos associados, tem certeza?"
   product_import_http_error: "Erro ao fazer upload do arquivo. Certifique-se de que o arquivo seja salvo como texto."
   product_import_error: "Erro ao criar a importação. Certifique-se de que os arquivos estejam no formato correto."
+  import_products:
+    mailer:
+      hello: 'Olá,'
+      error: "Ocorreu um erro durante a importação.<br />Causas comuns para isso incluem:<br />- CSV mau formatado<br />- Caracteres especisais presentes no arquivo<br />- Dados incorretos<br />- Erro na aplicação ou banco de dados<br /><br />Por favor verifique o seu arquivo e tente novamente.<br />Para ajudar no diagnóstico do problema, nós anexamos neste e-mail o arquivo de registros da importação.<br /><br />--<br /><br />"
+      success: "Este é um e-mail rápido para informar que a importação do produto que você enviou foi concluída.<br />Agora você pode ver os produtos que adicionou visíveis em sua loja."
   spree:
     admin:
       tab:
         product_imports: "Importação de Produtos"
     actions:
       import: "Importar"
-    messages:
-      hello: 'Olá,'
-      error: "Ocorreu um erro durante a importação.<br />Causas comuns para isso incluem:<br />- CSV mau formatado<br />- Caracteres especisais presentes no arquivo<br />- Dados incorretos<br />- Erro na aplicação ou banco de dados<br /><br />Por favor verifique o seu arquivo e tente novamente.<br />Para ajudar no diagnóstico do problema, nós anexamos neste e-mail o arquivo de registros da importação.<br /><br />--<br /><br />"
-      success: "Este é um e-mail rápido para informar que a importação do produto que você enviou foi concluída.<br />Agora você pode ver os produtos que adicionou visíveis em sua loja."
   product_import:
     table:
       date_creation: Data de Criação
